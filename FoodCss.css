@@ -1,0 +1,153 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.logo img{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left:90px;
+    height:50px;
+    width:50px;
+    margin-right: 100px;
+}
+
+#navbar{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:70px;
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar ul li{
+    list-style: none;
+}
+
+#navbar ul li a{
+    font-size:  1.3rem;
+    text-decoration: none;
+    color:white;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+#navbar ul li a:hover{
+    text-decoration: underline red;
+}
+
+#home{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    height:350px;
+}
+
+#home::before{
+    content:"";
+    position:absolute;
+    height:350px;
+    width:100%;
+    background: url(FoodTomato.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+
+#home h1{
+    padding:20px;
+    font-size:2rem;
+}
+
+#home p{
+    font-size:1.3rem;
+    margin-left:80px;
+    margin-right:80px;
+    padding:20px;
+}
+
+#home button{
+    position:relative;
+    background-color: brown;
+    color:white;
+    border-radius: 10px;
+    padding:10px;
+    width:100px;
+    margin-bottom:20px;
+}
+
+#home button:hover{
+    background-color: red;
+}
+
+#services{
+    display: flex;
+    flex-direction:row
+}
+
+#servicesHeading{
+    margin-top:20px;
+    text-align: center;
+    font-size:2rem;
+}
+
+.servicesItem{
+    border:2px solid red;
+    padding:20px;
+    margin:10px;
+    background-color: rgb(255, 243, 243);
+    border-radius: 10px;
+}
+
+.servicesItem img{
+    width:100px;
+    height:100px;
+    margin-left: 40%;
+}
+
+#contacts{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    display: flex;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    height:290px;
+}
+
+
+#contacts form{
+    margin:20px;
+}
+
+#contacts input{
+    display: block;
+    margin-bottom:10px;
+}
+
+.inputBox{
+    border-radius: 5px;
+}
+
+#subBtn{
+    border-radius: 8px;
+    padding:3px;
+    width:100px;
+    position:relative;
+    top:10px;
+    left:30px;
+}
+#subBtn:hover{
+    background-color: rgb(154, 154, 154);
+}
